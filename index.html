@@ -21,7 +21,7 @@
         class Atm {
             constructor() {
 
-            }
+            } //let user log in with PIN
             login() {
                 let userPin = prompt("Enter PIN");
                 let isFound = this.pinExists(userPin);
@@ -34,7 +34,7 @@
                 else {
                     alert("Account not found.");
                 }
-            }
+            } //let user create account with PIN
             createAcct() {
                 let userPin = prompt("Enter PIN");
                 let isFound = this.pinExists(userPin);
